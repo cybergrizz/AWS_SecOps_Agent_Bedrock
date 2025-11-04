@@ -1,0 +1,19 @@
+{
+  "Version":"2012-10-17",
+  "Statement":[
+    {
+      "Sid":"QuarantineAllowed",
+      "Effect":"Allow",
+      "Action":[
+        "ec2:ModifyNetworkInterfaceAttribute",
+        "ec2:ModifyInstanceAttribute",
+        "ec2:CreateTags",
+        "ec2:DescribeInstances",
+        "ec2:DescribeSecurityGroups",
+        "ec2:DescribeNetworkInterfaces",
+        "ec2:DescribeInstanceAttribute"
+      ],
+      "Resource":"*"
+    }
+  ]
+}
