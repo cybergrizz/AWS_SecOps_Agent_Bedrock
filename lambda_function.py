@@ -1,4 +1,4 @@
-import os, json, time, hmac, hashlib, urllib.parse, urllib.request, boto3, base6
+import os, json, time, hmac, hashlib, urllib.parse, urllib.request, boto3, base64
 
 EC2 = boto3.client("ec2")
 BR = boto3.client("bedrock-runtime")
